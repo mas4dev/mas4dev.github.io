@@ -1,0 +1,122 @@
+body{
+  font-family: 'Merriweather', serif;
+text-align: center;
+}
+
+.top-container {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  
+}
+
+h1 {
+  font-family: "Sacramento", cursive;
+  color: #9000ff;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+
+  font-weight: normal;
+  
+  color: #5025d1;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #5025d1;
+}
+p{
+  font-size: 1.1rem;
+}
+.Headline {
+  position: relative;
+  text-align: center;
+  font-size: 5rem;
+}
+.Headline2 {
+  position: relative;
+  text-align: center;
+  color: #9000ff;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+.mypic {
+  border-radius: 100%;
+  position: relative;
+  margin-top: 8%;
+}
+.kid0o{
+  position: relative;
+  text-align: center;
+  max-width: 30rem;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.middle-container {
+  text-align: center;
+  background-color: #e6f2ff;
+
+}
+.dev-man {
+  position: relative;
+  text-align: center;
+  max-width: 50%;
+  margin-left: 25%;
+}
+.pc-mobile{
+max-width: 20%;
+position: relative;
+float: left;
+}
+.skills{
+position: relative;
+line-height: 2;
+}
+.skill-row{
+  position: relative;
+background-color: #9d4edd;
+line-height: 2;
+margin-top: 3%;
+
+
+}
+.contact-me{
+text-align: center;
+margin-top: 5%;
+}
+
+.card{
+margin-left: 40%;
+color: #03071e;
+}
+.my-work{
+  color: #5025d1;
+text-align: center;
+margin-right: 20%;
+}
+#footer{
+  text-align: center;
+background-color: #5a189a;
+color: #9d4edd;
+padding: 2% 10%;
+
+}
+.soical-micons{
+  margin: 20px 10px;
+}
+.my-sk11s{
+  position: relative;
+  text-align: center;
+}
+.hbold{
+  color: #fff;
+  text-align: left;
+}
+.hbold2{
+  color: #c8e7ff;
+  text-align: left;
+}
