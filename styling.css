@@ -2,6 +2,16 @@ body{
   font-family: 'Merriweather', serif;
 text-align: center;
 }
+.navbar-nav .nav-link[href="#about"] {
+  color: purple;
+}
+.navbar-nav .nav-link{
+  font-size: 19px;
+  color: #37306B;
+}
+.navbar-nav .nav-link:hover {
+  color: purple;
+}
 
 .top-container {
   background: rgb(238, 174, 202);
@@ -15,22 +25,13 @@ text-align: center;
 
 h1 {
   font-family: "Sacramento", cursive;
-  color: #9000ff;
+  color: #37306B;
 }
-h2 {
-  font-family: "Montserrat", sans-serif;
+h2{
+  font-family: 'GFS Didot', serif;
+  color: #3B3486;
+}
 
-  font-weight: normal;
-  
-  color: #5025d1;
-}
-h3 {
-  font-family: "Montserrat", sans-serif;
-  color: #5025d1;
-}
-p{
-  font-size: 1.1rem;
-}
 .Headline {
   position: relative;
   text-align: center;
@@ -39,66 +40,109 @@ p{
 .Headline2 {
   position: relative;
   text-align: center;
-  color: #9000ff;
+  color: #37306B;
   font-size: 1.5em;
   font-weight: normal;
 }
-.mypic {
-  border-radius: 100%;
-  position: relative;
-  margin-top: 8%;
-}
-.kid0o{
-  position: relative;
-  text-align: center;
-  max-width: 30rem;
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
 
 .middle-container {
-  text-align: center;
-  background-color: #e6f2ff;
+  display: flex;
+  flex-direction: row;
+}
+
+.text1 {
+  flex: 1;
+  margin-top: 15%;
+  margin-left: 10%;
+}
+
+.image1 {
+  flex: 1;
+  text-align: right;
+margin-right: 10%;
+margin-top: 7%;
+}
+
+.image1 img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 40%;
 
 }
+
+.parallax {
+  position: relative;
+  height: 100vh;
+  background-image: url('images/ipad.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5); 
+}
+
+.parallax .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+}
+
+.parallax img { 
+  filter: brightness(80%) contrast(110%);
+}
+
+.text2 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  font-family: 'GFS Didot', serif;
+  color: #fff;
+}
+
+.bodytext {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+
+a.btn-primary:hover {
+  background-color: #a16bff;
+  box-shadow: 0px 5px 20px 0px rgba(93, 0, 254, 0.5);
+}
+a.btn-primary{
+  background-color: #6b42ff;
+
+}
+
 .dev-man {
   position: relative;
   text-align: center;
   max-width: 50%;
   margin-left: 25%;
 }
-.pc-mobile{
-max-width: 20%;
-position: relative;
-float: left;
-}
+
 .skills{
 position: relative;
 line-height: 2;
 }
-.skill-row{
-  position: relative;
-background-color: #9d4edd;
-line-height: 2;
-margin-top: 3%;
 
-
-}
 .contact-me{
 text-align: center;
 margin-top: 5%;
 }
 
-.card{
-  position: relative;
-margin-left: 50%;
-color: #03071e;
-}
-.my-work{
-  color: #5025d1;
-text-align: center;
-margin-right: 20%;
-}
 #footer{
   text-align: center;
 background-color: #5a189a;
@@ -110,18 +154,8 @@ padding: 2% 10%;
 .soical-micons{
   margin: 20px 10px;
 }
-.my-sk11s{
-  position: relative;
-  text-align: center;
-}
-.hbold{
-  color: #fff;
-  text-align: left;
-}
-.hbold2{
-  color: #c8e7ff;
-  text-align: left;
-}
+
+/* CSS for mobile */
 @media (max-width: 1028px) {
   .dev-man{
     max-width: 65%;
@@ -133,6 +167,41 @@ padding: 2% 10%;
   .Headline2{
     font-size: 1.5rem;
   }
+  .middle-container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .image1 {
+    margin-top:20px;
+    width: 50%;
+  }
+  .text1 {
+
+    margin-top: 50px;
+  }
+
+  .parallax {
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+  }
+  .overlay {
+    padding: 80px 0;
+  }
+  .text2 {
+    font-size: 36px;
+  }
+  .bodytext {
+    font-size: 24px;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .btn-lg {
+    font-size: 20px;
+    padding: 12px 24px;
+  }
+  
 }
 
 @media (max-width: 600px) {
@@ -146,17 +215,35 @@ padding: 2% 10%;
   .Headline2{
     font-size: 1.1rem;
   }
-  .mypic{
-width: 150px;
-height: 150px;
+  .middle-container {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 50px;
   }
-.hbold ,.hbold2{
-padding-left: 45%;
-}
-  .pc-mobile{
-    max-width: 40%;
-    position: relative;
-    float: left;
-    }
+  
+  .middle-container .text1 {
+    width: 100%;
+  }
+  
+  .middle-container .image1 {
+    width: 80%;
+  }
+  
+  .parallax {
+    height: 500px;
+  }
+  
+  .parallax .text2 {
+    font-size: 3rem;
+  }
+  
+  .parallax .bodytext {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .btn-lg {
+    font-size: 1rem;
+  }
 
 }
