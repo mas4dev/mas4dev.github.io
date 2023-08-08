@@ -1,0 +1,505 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #1A4087;
+color: #fff;
+}
+
+
+.logo {
+  position: absolute;
+  width: 199.651px;
+  height: 50px;
+  
+}
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-nav .nav-item {
+  margin: 0 10px;
+}
+
+.navbar-nav .nav-link {
+  font-size: 21px;
+  color: #fff;
+  font-family: 'Tajawal', sans-serif;
+}
+.navbar-nav .nav-link:hover{
+  color: #FCC361;
+}
+
+.topcontainer {
+  background-color: #1A4087;
+  width: 1728px;
+  height: 400px; 
+}
+
+.headline {
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 2%;
+  font-size: 30px;
+  color: #FCC361;
+  padding-left: 5%;
+  padding-top: 20%;
+  font-weight: 400;
+}
+
+.subtitle {
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+  text-align: left;
+  padding-right: 0%;
+  padding-left: 5%;
+  font-size: 66px;
+}
+
+.mobile {
+  width: 538px;
+  height: 591px;
+padding-left: 20%;
+  padding-top: 23%;
+}
+
+#about {
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  margin-bottom: 10%;
+
+}
+
+.textcontainer {
+  flex-basis: 40%;
+}  
+
+
+.aboutustext1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.4rem;
+  text-align: justify;
+  color: #fff;
+  padding-top: 2%;
+  padding-left: 5%;
+
+}
+
+.abouttext2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.1rem;
+  text-align: justify;
+  line-height: 30px;
+  color: #fff;
+  margin-left: 30px;
+  padding-top: 2%;
+  text-align: justify;
+}
+
+
+
+
+#services {
+  text-align: center;
+
+}
+
+.container {
+
+  padding-bottom: 10%;
+  margin-top: 15%;
+}
+
+.carpic {
+margin-right: 10px;
+}
+
+
+.icons-container {
+display: flex;
+flex-direction: column;
+padding-top: 10%;
+}
+
+.icons {
+ color: #313131;
+}
+.icontext {
+display: flex;
+align-items: center;
+}
+
+.ellipse {
+width: 60px;
+height: 60px;
+border-radius: 50%; 
+background-color: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+filter: drop-shadow(3px 7px 15px rgba(0, 0, 0, 0.25));
+}
+.vantext {
+margin-left: 10px; /*space between the icon and text */
+}
+.vtheadline{
+font-size: 1.8rem;
+}
+.downloadsection{
+display: flex;
+  align-items: center;
+width: 1728px;
+height: 400px;
+background-color: #2452A8;
+padding-bottom: 10%;
+
+}
+.vanpic{
+padding-top: 200px;
+
+}
+
+.dwheadline{
+color: #FFF;
+font-family: Inter;
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.dwsub{
+color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+line-height: normal;
+}
+
+
+
+.download-button {
+display: inline-block;
+
+text-align: center;
+margin-right: 5px;
+}
+.Download-btn{
+
+  width: 190.509px;
+  height: 54px;
+  padding: 5px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  color: #1A4087;
+font-family: 'Inter', sans-serif;
+font-size: 19px;
+text-align: center;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.Download-btn:hover{
+background-color: #FCC361;
+color: #FFF;
+}
+/* Styles for the Google Play icon */
+.gplogo {
+  width: 29.706px;
+height: 30px;
+}
+
+
+
+.button-text {
+color: #1A4087;
+font-family: 'Inter';
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 0px; /* spacing between the icon and text */
+text-decoration: none !; /* Remove the underline from the text */
+}
+
+.download-container{
+padding-top: 10%;
+padding-left: 1%;
+}
+
+
+
+.servicesheading {
+  font-family: 'Inter', sans-serif;
+  text-align: left;
+  margin-bottom: 10%;
+  font-size: 66px;
+  padding-left: 100px;
+}
+
+
+
+.servicecontent {
+text-align: right;
+margin-bottom: 10%;
+}
+
+
+.service h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 16px;
+}
+
+.no1 {
+  color: #2452A8;
+  font-family: 'Inter', sans-serif;
+  font-size: 200px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+ 
+}
+
+.service2 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+}
+
+.servicecontent2 {
+  text-align: right;
+  margin-bottom: 10%;
+}
+
+.servtext2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.servicecontent3 {
+  text-align: right;
+}
+
+.servtext202 {
+  font-family: 'Inter', sans-serif;
+    text-align: justify;
+  padding-right: 50%;
+  font-size: 24px;
+  margin-bottom: 10px;
+  width: 1011px;
+height: 81px;
+}
+
+.servtext21 {
+  color: #FFF;
+  text-align: justify;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  width: 500px;
+height: 81px;
+}
+
+.servicetext101 {
+text-align: justify;
+}
+.servtext1{
+text-align: justify;
+font-size: 36px;
+}
+.servtext19{
+  text-align: justify;
+  font-size: 36px;
+}
+.service {
+  display: flex;
+  
+}
+.service2002{
+padding-left: 450px;
+}
+
+.serviceimage {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin: 20px;
+}
+.serviceimage2 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin: 40px;
+}
+.serviceimage3{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin: 30px;
+}
+.no2 {
+  color: #2452A8;
+font-size: 200px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+ font-family: 'Inter', sans-serif;
+}
+
+.mapsection {
+display: flex; /* Use flexbox to align items horizontally */
+width: 1728px;
+height: 400px;
+background-color: #2452A8;
+}
+
+.map {
+margin: 20px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.mapheadline{
+  font-family: 'Inter', sans-serif;
+  font-size: 34px;
+color: #FCC361;
+text-align: center;
+padding-top: 5%;
+padding-right: 300px;
+
+}
+.mapsubtitle{
+  font-size: 100px;
+text-align: center;
+padding-right: 15%;
+}
+
+.takealook{
+ color: #1A4087;
+ font-family: 'Inter', sans-serif;
+ border-radius: 10px;
+ font-size: 20px;
+}
+.takealook:hover{
+  color: #FFF;
+background-color: #FCC361;
+}
+
+.text-container {
+flex: 1; 
+padding-right: 200px; 
+padding-top: 40px;
+}
+.learnmorebutton{
+padding-left: 40%;
+padding-top: 3%;
+}
+#cta {
+text-align: center;
+margin-top: 5%;
+margin-bottom: 5%;
+
+}
+.ctaheading{
+margin-bottom: 1%;
+color: #fff;
+font-size: 32px;
+font-family: 'Inter', sans-serif;
+
+}
+.ctabutton{
+color: #FCC361;
+text-decoration: none;
+font-size: 24px;
+padding-bottom: 10%;
+}
+.ctabutton:hover{
+color: #CC1F2C;
+}
+#footer {
+text-align: center;
+background-color: #2452A8;
+color: #fff;
+margin-top: 3%;
+padding: 2% 10%;
+}
+.soicalmicons {
+margin: 20px 10px;
+color: #ffffff;
+}
+.linksar{
+text-decoration: none;
+font-family: 'Tajawal', sans-serif;
+color: #219ebc;
+font-size: 1.1rem;
+}
+
+
+
+
+footer {
+background-color: #2452A8;
+padding: 20px;
+display: flex;
+justify-content: space-around;
+}
+
+.footer-parent {
+text-align: center;
+}
+
+.footer-links,
+.footer-office,
+.footer-social-media {
+list-style: none;
+padding: 0;
+}
+
+.footer-links li,
+.footer-office li,
+.footer-social-media li {
+margin-bottom: 5px;
+}
+
+.footer-links a {
+text-decoration: none;
+color: #fff;
+}
+
+.footer-links a:hover {
+color: #FCC361;
+}
+
+.footer-social-media li {
+display: inline-block;
+margin-right: 10px;
+font-size: 20px;
+}
+

@@ -1,0 +1,448 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Tajawal", sans-serif;
+    background-color: #1a4087;
+    color: #fff;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .logo {
+    position: absolute;
+    max-width: 11%;
+    padding-left: 5%;
+    padding-top: 2%;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .navbar-nav .nav-item {
+    margin: 0 10px;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 21px;
+    color: #fff;
+    font-family: "Tajawal", sans-serif;
+  }
+  .navbar-nav .nav-link:hover {
+    color: #fcc361;
+  }
+  
+  .topcontainer {
+    background-color: #1a4087;
+  }
+  
+  .headline {
+    text-align: right;
+    font-family: "Tajawal", sans-serif;
+    font-weight: 600;
+    margin-bottom: 2%;
+    font-size: 5rem;
+    color: #fff;
+    margin-bottom: 5%;
+    padding-right: 10%;
+    padding-top: 20%;
+  }
+  
+  .subtitle {
+    font-family: "Tajawal", sans-serif;
+    color: #fcc361;
+    text-align: center;
+    padding-left: 10%;
+  }
+  
+  .mobile {
+    max-width: 80%;
+    padding-left: 20%;
+    padding-top: 23%;
+  }
+  
+  #about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-bottom: 10%;
+  }
+  .imagecontainer {
+    flex-basis: 50%;
+  }
+  .textcontainer {
+    flex-basis: 40%;
+  }
+  
+  .aboutustext1 {
+    font-family: "Tajawal", sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #fff;
+    padding-top: 2%;
+    padding-left: 66%;
+  }
+  
+  .abouttext2 {
+    font-family: "Tajawal", sans-serif;
+    font-size: 1.2rem;
+    text-align: justify;
+    line-height: 30px;
+    color: #fff;
+    margin-left: 30px;
+    padding-top: 2%;
+  }
+  
+  #services {
+    text-align: right;
+  }
+  
+  
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-bottom: 10%;
+    margin-top: 15%;
+  }
+  
+  .carpic {
+    margin-right: 10px;
+  }
+  
+  .icons-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+  }
+  
+  .icons {
+    /* Add some spacing between the icons */
+    color: #313131;
+    
+  }
+  .icontext {
+    display: flex;
+    align-items: center;
+  }
+  
+  .ellipse {
+    width: 80px;
+    height: 60px;
+    border-radius: 50%; /* Makes the element circular */
+    background-color: #fff; /* You can change this color to your desired background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    .ellipseti7k{
+      width: 66px;
+    height: 60px;
+    border-radius: 50%; /* Makes the element circular */
+    background-color: #fff; /* You can change this color to your desired background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+  .vantext {
+    padding-left: 10px;
+    text-align: right; /* Optional: Add some spacing between the icon and text */
+  }
+  .vtheadline {
+    font-size: 1.8rem;
+    text-align: right;
+  }
+  
+  .downloadsection {
+    display: flex;
+    align-items: center;
+    width: 1728px;
+    height: 400px;
+    background-color: #2452a8;
+    padding-bottom: 10%;
+    padding-left: 0%;
+  }
+  .vanpic {
+    max-width: 90%;
+    padding-top: 15%;
+    padding-left: 0%;
+    
+  }
+  
+  .dwheadline {
+    color: #fff;
+    font-family: "Tajawal", sans-serif;
+  font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  
+    text-align: right;
+  }
+  
+  .dwsub {
+    color: #fff;
+    font-family: "Tajawal", sans-serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    line-height: normal;
+    text-align: right;
+  }
+  
+  /* Styles for the download button */
+  .buttontextios{
+    color: #1a4087;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 0px; /* Adjust the spacing between the logo and text as needed */
+    text-decoration: none !; 
+  }
+  
+  .download-button {
+    display: inline-block;
+    width: 180px;
+    height: 55px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 65px;
+  margin-bottom: 10%;
+  margin-left: 5%;
+  }
+  
+  .downloadsection1001{
+    padding-left: 20%;
+  }
+  
+  .download-button a {
+    text-decoration: none;
+  }
+  .peoplepics{
+    padding-left: 70%;
+  }
+  /* Styles for the Google Play logo */
+  .gplogo {
+    max-width: 100%;
+    padding-bottom: 2%;
+  }
+  
+  /* Styles for the button text */
+  .button-text {
+    color: #1a4087;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 0px; /* Adjust the spacing between the logo and text as needed */
+    text-decoration: none !; /* Remove the underline from the text */
+  }
+  
+  .download-container {
+    padding-top: 10%;
+    padding-left: 5%;
+  }
+  
+  .servicesheading {
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    font-size: 3.5rem;
+  }
+  
+  .servicecontent {
+    text-align: right;
+    margin-bottom: 10%;
+  }
+  
+  .service h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .service p {
+    font-size: 16px;
+  }
+  
+  .no1 {
+    font-size: 7rem;
+    color: #2452a8;
+    font-family: "Inter", sans-serif;
+  }
+  
+  .service2 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+  }
+  .servicecontent2 {
+    text-align: right;
+    margin-bottom: 10%;
+  }
+  .servtext2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .servicecontent3 {
+    text-align: right;
+  }
+  .servtext202 {
+    width: 100%;
+    padding-left: 50%;
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+  }
+  .servtext21 {
+    width: 100%;
+    padding-right: 0%;
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+    line-height: 30px;
+    padding-left: 20%;
+  }
+  .servicetext101 {
+    padding-left: 50%;
+  }
+  .service {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .serviceimage {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .no2 {
+    font-size: 7rem;
+    color: #2452a8;
+    font-family: "Inter", sans-serif;
+  }
+  
+  .mapsection {
+    display: flex; /* Use flexbox to align items horizontally */
+    width: 1728px;
+    height: 400px;
+    background-color: #2452a8;
+  }
+  
+  .map {
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+  .mapheadline {
+    font-size: 2.5rem;
+    color: #fcc361;
+    text-align: center;
+    padding-top: 5%;
+    padding-right: 7%;
+  }
+  .mapsubtitle {
+    font-size: 6rem;
+    text-align: center;
+    padding-right: 15%;
+  }
+  
+  .text-container {
+    flex: 1; /* Allow the text container to occupy all available space */
+    padding: 20px; /* Adjust the padding as desired */
+  }
+  .learnmorebutton {
+    padding-left: 40%;
+    padding-top: 3%;
+  }
+  #cta {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .ctaheading {
+    margin-bottom: 1%;
+    color: #fff;
+    font-size: 2.5rem;
+  }
+  .ctabutton {
+    color: #fcc361;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding-bottom: 10%;
+  }
+  .ctabutton:hover {
+    color: #cc1f2c;
+  }
+  #footer {
+    text-align: center;
+    background-color: #2452a8;
+    color: #fff;
+    margin-top: 3%;
+    padding: 2% 10%;
+  }
+  .soicalmicons {
+    margin: 20px 10px;
+    color: #ffffff;
+  }
+  .linksar {
+    text-decoration: none;
+    font-family: "Tajawal", sans-serif;
+    color: #219ebc;
+    font-size: 1.1rem;
+  }
+  
+  footer {
+    background-color: #2452a8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-parent {
+    text-align: center;
+  }
+  
+  .footer-links,
+  .footer-office,
+  .footer-social-media {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li,
+  .footer-office li,
+  .footer-social-media li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .footer-links a:hover {
+    color: #007bff;
+  }
+  
+  .footer-social-media li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+  }

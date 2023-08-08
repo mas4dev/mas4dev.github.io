@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+display: flex;
+align-items: center;
+flex-direction: column;
+width: 100vw;
+font-family: 'Montserrat', sans-serif;
+background-color: #1A4087 !important;
+
+}
+
+
+
+.sharebutton{
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+background-color: #e5e5e5;
+
+}
+.ltext{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px !important;
+    color: #1a4087;
+}
+
+header{
+width: 95%;
+max-width: 788px;
+display: flex;
+justify-content: flex-end;
+padding: 12px;
+margin-top: 15px;
+}
+a {
+    text-decoration: none !important;
+color: #1a4087 !important;
+}
+p{
+    padding-top: 15px;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 1.2rem;
+}
+
+.topcontainer{
+    width: 91%;
+    max-width: 680px;
+    margin: 10px;
+    display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+.tile{
+    width: 80%;
+height: 56px;
+background-color: #e5e5e5;
+margin: 7px;
+border-radius: 17px;
+display: flex;
+justify-content: space-between;
+
+}
+
+.soicalmicons {
+    margin: 20px 10px;
+    color: #fff;
+    text-align: center;
+    
+  }
