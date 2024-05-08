@@ -120,6 +120,7 @@ margin-top: 7%;
 a.btn-primary:hover {
   background-color: #a16bff;
   box-shadow: 0px 5px 20px 0px rgba(93, 0, 254, 0.5);
+  color: #ffd500;
 }
 a.btn-primary{
   background-color: #6b42ff;
@@ -153,8 +154,15 @@ padding: 2% 10%;
 }
 .soical-micons{
   margin: 20px 10px;
+  color: #ffd500;
 }
 
+.soical-micons:hover {
+  color: #8f42cf;
+}
+.creditlink{
+  color: #8f42cf;
+}
 /* CSS for mobile */
 @media (max-width: 1028px) {
   .dev-man{
