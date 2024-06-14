@@ -1,0 +1,257 @@
+body{
+  font-family: 'Merriweather', serif;
+text-align: center;
+}
+.navbar-nav .nav-link[href="#about"] {
+  color: purple;
+}
+.navbar-nav .nav-link{
+  font-size: 19px;
+  color: #37306B;
+}
+.navbar-nav .nav-link:hover {
+  color: purple;
+}
+
+.top-container  {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  
+}
+
+h1 {
+  font-family: "Sacramento", cursive;
+  color: #37306B;
+}
+h2{
+  font-family: 'GFS Didot', serif;
+  color: #3B3486;
+}
+
+.Headline {
+  position: relative;
+  text-align: center;
+  font-size: 5rem;
+}
+.Headline2 {
+  position: relative;
+  text-align: center;
+  color: #37306B;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+.middle-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.text1 {
+  flex: 1;
+  margin-top: 15%;
+  margin-left: 10%;
+}
+
+.image1 {
+  flex: 1;
+  text-align: right;
+margin-right: 10%;
+margin-top: 7%;
+}
+
+.image1 img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 40%;
+
+}
+
+.parallax {
+  position: relative;
+  height: 100vh;
+  background-image: url('images/ipad.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5); 
+}
+
+.parallax .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+}
+
+.parallax img { 
+  filter: brightness(80%) contrast(110%);
+}
+
+.text2 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  font-family: 'GFS Didot', serif;
+  color: #fff;
+}
+
+.bodytext {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+
+a.btn-primary:hover {
+  background-color: #a16bff;
+  box-shadow: 0px 5px 20px 0px rgba(93, 0, 254, 0.5);
+  color: #ffd500;
+}
+a.btn-primary{
+  background-color: #6b42ff;
+
+}
+
+.dev-man {
+  position: relative;
+  text-align: center;
+  max-width: 50%;
+  margin-left: 25%;
+}
+
+.skills{
+position: relative;
+line-height: 2;
+}
+
+.contact-me{
+text-align: center;
+margin-top: 5%;
+}
+
+#footer{
+  text-align: center;
+background-color: #231942;
+color: #9d4edd;
+margin-top: 3%;
+padding: 2% 10%;
+
+}
+.soical-micons{
+  margin: 20px 10px;
+  color: #be95c4;
+}
+
+.soical-micons:hover {
+  color: #8f42cf;
+}
+.creditlink{
+  color: #8f42cf;
+}
+/* CSS for mobile */
+@media (max-width: 1028px) {
+  .dev-man{
+    max-width: 65%;
+    margin: 0% 19%;
+  }
+  .Headline{
+    font-size: 3.7rem;
+  }
+  .Headline2{
+    font-size: 1.5rem;
+  }
+  .middle-container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .image1 {
+    margin-top:20px;
+    width: 50%;
+  }
+  .text1 {
+
+    margin-top: 50px;
+  }
+
+  .parallax {
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+  }
+  .overlay {
+    padding: 80px 0;
+  }
+  .text2 {
+    font-size: 36px;
+  }
+  .bodytext {
+    font-size: 24px;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .btn-lg {
+    font-size: 20px;
+    padding: 12px 24px;
+  }
+  
+}
+
+@media (max-width: 600px) {
+  .dev-man{
+    max-width: 100%;
+    margin: 0%;   
+  }
+  .Headline{
+    font-size: 3rem;
+  }
+  .Headline2{
+    font-size: 1.1rem;
+  }
+  .middle-container {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 50px;
+  }
+  
+  .middle-container .text1 {
+    width: 100%;
+  }
+  
+  .middle-container .image1 {
+    width: 80%;
+  }
+  
+  .parallax {
+    height: 500px;
+  }
+  
+  .parallax .text2 {
+    font-size: 3rem;
+  }
+  
+  .parallax .bodytext {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .btn-lg {
+    font-size: 1rem;
+  }
+
+}

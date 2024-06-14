@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+display: flex;
+align-items: center;
+flex-direction: column;
+width: 100vw;
+font-family: 'Tajawal', sans-serif;
+background-color: #231942 !important;
+
+}
+
+.mypic101{
+    border-radius: 50%;
+    
+}
+
+.sharebutton{
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+background-color: #e5e5e5;
+visibility: hidden;
+}
+
+.username{
+    color: #be95c4;
+    font-size: 22px;
+    padding-right: 20px;
+    margin: 10px;
+}
+
+
+.ltext{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px !important;
+    color: #1a4087;
+}
+
+header{
+width: 95%;
+max-width: 788px;
+display: flex;
+justify-content: flex-end;
+padding: 12px;
+margin-top: 15px;
+}
+a {
+    text-decoration: none !important;
+color: #231942 !important;
+}
+p{
+    padding-top: 15px;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 1.2rem;
+}
+
+.topcontainer{
+    width: 91%;
+    max-width: 680px;
+    margin: 10px;
+    display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+.tile{
+    width: 80%;
+height: 56px;
+background-color: #be95c4;
+margin: 7px;
+border-radius: 17px;
+display: flex;
+justify-content: space-between;
+
+}
+
+
