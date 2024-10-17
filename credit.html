@@ -2,24 +2,196 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="credit.css">
-    <title>Credit Section</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 <body>
-    <div class="row">
-<h1>here are a list of the images I used in my website</h1>
-<ul>
-    <li>
-        Responsive Design:<a href="https://www.flaticon.com/free-icons/responsive" title="responsive icon">Responsive icon created by Nikita Golubev - Flaticon</a>
-    </li>
-    <li>
-        Programmer:<a href="https://www.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_10798281.htm#query=web%20developer&position=0&from_view=search&track=sph"> Programmer Image by upklyak</a> on Freepik
-
-    </li>
+    <!-- Navbar -->
+<nav class="bg--800">
   
-</ul>
+    <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+      <div class="relative flex h-16 items-center justify-between">
+        <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">   
+          <!-- Mobile menu button -->
+          <button type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+            <span class="absolute -inset-0.5"></span>
+            <span class="sr-only">Open main menu</span>
+            <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+          </button>
+        </div>
+        <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+          <div class="flex flex-shrink-0 items-center">
+            <img class="h-8 w-auto" src="images/qilogo.svg" alt="Your Company">
+          </div>
+          <div class="hidden sm:ml-6 sm:block">
+            <div class="flex space-x-4">
+              <a href="#" class="rounded-md  px-3 py-2 text-sm font-medium text-black text-black-300 hover:bg-yellow-400 hover:text-white" aria-current="page">Feed</a>
+              <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-black-300 hover:bg-yellow-400 hover:text-white">Archive</a>
+              <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-black-300 hover:bg-yellow-400 hover:text-white">Doc</a>
+              <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-black-300 hover:bg-yellow-400 hover:text-white">Demo</a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="rounded-md bg-yellow-500 px-3 py-2 text-sm font-medium text-white hover:bg-yellow-900 hover:text-white" aria-current="page">New Ticket</a>
+        <!-- Search  -->
+        <div class="absolute inset-y-0 right-0 flex items-center space-x-4 pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+          <!-- Search input -->
+          <div class="relative text-gray-400 focus-within:text-gray-600">
+            <input class="block w-full bg-white-700 border border-transparent rounded-md py-2 pl-10 pr-3 leading-5 text-black-300 placeholder-gray-400 focus:outline-none focus:bg-white focus:border-white focus:ring-white sm:text-sm" placeholder="Search" type="search" name="search">
+            <div class="absolute inset-y-0 left-0 flex items-center pl-3">
+              <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 1116.65 5.65a7.5 7.5 0 010 10.7z" />
+              </svg>
+            </div>
+          </div>
+  
+          <!-- Notification Button -->
+          <button type="button" class="relative rounded-full bg--800 p-1 text-black-400 hover:text-yellow-700 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+            <span class="sr-only">View notifications</span>
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
+            </svg>
+          </button>
+  
+          <!-- Profile Dropdown -->
+          <div class="relative ml-3">
+            <div>
+              <button type="button" class="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
+                <span class="sr-only">Open user menu</span>
+                <img class="h-8 w-8 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </nav>
+
+<hr>
+  <!-- Form-->
+
+  <form class="flex flex-col items-center">
+    <div class="space-y-12 w-full max-w-lg">
+      <!-- Personal Information -->
+      <div class="border-b border-gray-900/10 pb-12">
+        <h2 class="text-base font-semibold leading-7 text-gray-900 text-center">Ticket Upload</h2>
+  
+        <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+          <div class="sm:col-span-3">
+            <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900 text-center">Phone No.</label>
+            <div class="mt-2">
+              <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full mx-auto rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+            </div>
+          </div>
+  
+          <div class="sm:col-span-3">
+            <label for="last-name" class="block text-sm font-medium leading-6 text-gray-900 text-center">NAme</label>
+            <div class="mt-2">
+              <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="block w-full mx-auto rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+            </div>
+          </div>
+          
+          <!-- About Section -->
+          <div class="col-span-full">
+            <label for="about" class="block text-sm font-medium leading-6 text-gray-900 text-center">About</label>
+            <div class="mt-2">
+              <textarea id="about" name="about" rows="3" class="block w-full mx-auto rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea>
+            </div>
+          </div>
+          
+          <!-- Country Forms (5 times) -->
+          <div class="sm:col-span-3">
+            <label for="country1" class="block text-sm font-medium leading-6 text-gray-900 text-center">Card Type</label>
+            <div class="mt-2">
+              <select id="country1" name="country1" class="block bg-gray-50   w-full mx-auto rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                <option>Eliet</option>
+                <option>Master</option>
+                <option>Visa</option>
+                <option>Cobadge</option>
+                <option>Qi Card</option>
+                <option>Branded</option>
+                <option>example</option>
+              </select>
+            </div>
+          </div>
+          <div class="sm:col-span-3">
+            <label for="country2" class="block  text-sm font-medium leading-6 text-gray-900 text-center">Customer Type</label>
+            <div class="mt-2">
+              <select id="country2" name="country2" class="block bg-gray-50   w-full mx-auto rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                <option>موظف</option>
+                <option>متقاعد</option>
+                <option>ريادة</option>
+                <option>حشد شعبي </option>
+                <option>رعاية اجتماعية</option>
+                <option>example</option>
+              </select>
+            </div>
+          </div>
+          <div class="sm:col-span-3">
+            <label for="country3" class="block text-sm font-medium leading-6 text-gray-900 text-center">category</label>
+            <div class="mt-2">
+              <select id="country3" name="country3" class="block bg-gray-50  w-full mx-auto rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                <option>SuperQi</option>
+                <option>Salifne</option>
+                <option>سلف وقروض</option>
+                <option>اقساطي</option>
+                <option>استعلام</option>
+                <option>طلب خدمة</option>
+              </select>
+            </div>
+          </div>
+          <div class="sm:col-span-3">
+            <label for="country4" class="block text-sm font-medium leading-6 text-gray-900 text-center">Subcategory</label>
+            <div class="mt-2">
+              <select id="country4" name="country4" class="block bg-gray-50  w-full mx-auto rounded-md border-0 py-1.5 text-gray-900 bg-gray-50 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                <option>تفعيل البطاقة عبر التطبيق </option>
+                <option>كشف الرمز</option>
+                <option>تغيير الرمز</option>
+                <option>ارسال الرمز</option>
+                <option>المتبقي من الاقساط</option>
+                <option>استبدال</option>
+              </select>
+            </div>
+          </div>
+          <div class="sm:col-span-3">
+            <label for="country5" class="block text-sm font-medium leading-6 text-gray-900 text-center">example</label>
+            <div class="mt-2">
+              <select id="country5" name="country5" class="block bg-gray-50  w-full mx-auto rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                <option>example</option>
+                <option>ex</option>
+                <option>demo</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Upload Files Section -->
+      <div class="col-span-full">
+        <label for="file-upload" class="block text-sm font-medium leading-6 text-gray-900 text-center">Upload Files</label>
+        <div class="mt-2 flex justify-center rounded-lg border border-dashed border-gray-900/25 px-6 py-10">
+          <div class="text-center">
+            <label for="file-upload" class="relative cursor-pointer rounded-md bg-white font-semibold text-yellow-600 focus-within:outline-none focus-within:ring-2 focus-within:ring-yellow-600 focus-within:ring-offset-2 hover:text-yellow-500">
+              <span>Upload a file</span>
+              <input id="file-upload" name="file-upload" type="file" class="sr-only">
+            </label>
+            <p class="text-xs leading-5 text-gray-600">PNG, JPG, GIF up to 10MB</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Save & Cancel Buttons -->
+    <div class="mt-6 flex items-center justify-center gap-x-6">
+      <button type="button" class="text-sm font-semibold leading-6 text-gray-900">Cancel</button>
+      <button type="submit" class="rounded-md bg-yellow-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-yellow-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Upload</button>
+    </div>
+  </form>
+  
 </body>
 </html>
